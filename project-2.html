@@ -1,11 +1,94 @@
+<!DOCTYPE html>
 <html>
-  <head><title>COOKING SITE</title></head>
-  <body>
-  <h1>WELLCOMW TO MY COOKING SITE</h1>
-  <ul>
-    <li><a href="#RECIPES">RECIPES</li>
-    <li><a href="#RECIPES">PROFILE</li>
-    <li><a href="#RECIPES">LEARN</li>
-    <li><a href="#RECIPES">SUBMIT RECIPES</li>
-    <li><a href="#RECIPES">SEARCH</li>
-  </ul>
+<head>
+<style>
+.Box {
+  text-align: center;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Times New Roman";
+  font-size: 40px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  font-family: "Georgia";
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkblue;
+}
+.box2{
+  color: red;
+  font-family: "Palatino";
+  text-align: center;
+  font-size: 2.5em;
+}
+.salad {
+  color: green;
+  font-size: 1.546em;
+  text-align: center;
+}
+.box3{
+  width: 350px;
+  height: 50px;
+  background-color: #F0E68C;
+  font-size: 1.546em;
+  position: inherit;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: absolute;
+  height: 500px;
+}
+</style>
+</head>
+<body>
+<h1 class="Box">WELCOME TO MY PAGE</h1>
+<ul>
+  <li><a href="#home">HOME</a></li>
+  <li><a href="#recipes">NEWS</a></li>
+  <li><a href="#contact">CONTACT</a></li>
+  <li><a href="#about">ABOUT</a></li>
+  <li><a href="#recipes">RECIPES</a></li>
+  <li><a href="#login">LOGIN</a></li>
+</ul>
+<h1 class="box2">DAILY FUN FACTS</h1>
+<hr></hr>
+<img src="D:\daren\project-2_files\Big-Italian-Salad.jpg" alt="BIG-ITALIAN-SALAD" height="500px" width=absolute class="center">
+<div class="salad">
+<p>Lettuce is a member of the sunflower family</p>
+<p>Christopher Columbus introduced lettuce to the Americas</p>
+<p>Salad comes from the Latin word "herba salta" or "salted herbs",so called because such greens were often seasoned with lots of salts</p>
+</div>
+<h2 class="box3">DO YOU LIKE SALAD</h2>
+<form>
+<label for="Salad">yes</label>
+<input type="radio" id="Salad" name="yes" value="yes">
+<form <label for="Salad">no</label>
+<input type="radio" id="Salad" name="no" value="no">
+<form <label for="Salad">neutral</label>
+<input type="radio" id="Salad" name="neutral" value="neutral">
+</form>
+</body>
+</html>
